@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essential Services Mapping</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            Essential Services
+        </div>
+
+        <div class="language-selector">
+            <button type="button">English</button>
+        </div>
+    </header>
+
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Welcome / Search Section -->
+        <section class="welcome-section">
+            <h1>Find Essential Services Near You</h1>
+
+            <p>
+                Find nearby hospitals, pharmacies, police stations,
+                schools and other essential services.
+            </p>
+
+            <div class="search-area">
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search for a service..."
+                >
+
+                <button type="button" id="locationButton">
+                    Find Near Me
+                </button>
+            </div>
+        </section>
+
+
+        <!-- Service Categories -->
+        <section class="services-section">
+            <h2>Essential Services</h2>
+
+            <div class="service-categories">
+
+                <button class="service-category" data-category="hospital">
+                    Hospitals
+                </button>
+
+                <button class="service-category" data-category="pharmacy">
+                    Pharmacies
+                </button>
+
+                <button class="service-category" data-category="police">
+                    Police Stations
+                </button>
+
+                <button class="service-category" data-category="toilet">
+                    Public Toilets
+                </button>
+
+                <button class="service-category" data-category="school">
+                    Schools
+                </button>
+
+                <button class="service-category" data-category="other">
+                    Other Services
+                </button>
+
+            </div>
+        </section>
+
+
+        <!-- Emergency Section -->
+        <section class="emergency-section">
+            <h2>Emergency Help</h2>
+
+            <p>
+                Quickly access important emergency services.
+            </p>
+
+            <div class="emergency-actions">
+                <button type="button">Call Emergency Services</button>
+                <button type="button">Find Nearest Hospital</button>
+                <button type="button">Find Nearest Police Station</button>
+            </div>
+        </section>
+
+
+        <!-- Nearby Services -->
+        <section class="nearby-section">
+
+            <h2>Nearby Services</h2>
+
+            <div class="nearby-content">
+
+                <!-- Map will be added later -->
+                <div id="map">
+                </div>
+
+                <!-- Service list will be populated later -->
+                <div id="serviceList">
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>Community Engagement Project</p>
+    </footer>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

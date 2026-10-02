@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Sample General Hospital",
+        "category": "hospital",
+        "address": "Sample Address",
+        "latitude": 19.4559,
+        "longitude": 72.8110,
+        "phone": "0000000000",
+        "hours": "Open 24 hours"
+    },
+    {
+        "id": 2,
+        "name": "Sample Pharmacy",
+        "category": "pharmacy",
+        "address": "Sample Address",
+        "latitude": 19.4580,
+        "longitude": 72.8140,
+        "phone": "0000000000",
+        "hours": "9:00 AM - 10:00 PM"
+    },
+    {
+        "id": 3,
+        "name": "Sample Police Station",
+        "category": "police",
+        "address": "Sample Address",
+        "latitude": 19.4525,
+        "longitude": 72.8085,
+        "phone": "0000000000",
+        "hours": "Open 24 hours"
+    },
+    {
+        "id": 4,
+        "name": "Sample Public Toilet",
+        "category": "toilet",
+        "address": "Sample Address",
+        "latitude": 19.4600,
+        "longitude": 72.8160,
+        "phone": "",
+        "hours": "6:00 AM - 10:00 PM"
+    },
+    {
+        "id": 5,
+        "name": "Sample School",
+        "category": "school",
+        "address": "Sample Address",
+        "latitude": 19.4540,
+        "longitude": 72.8130,
+        "phone": "0000000000",
+        "hours": "8:00 AM - 3:00 PM"
+    },
+    {
+        "id": 6,
+        "name": "Sample Essential Service",
+        "category": "other",
+        "address": "Sample Address",
+        "latitude": 19.4570,
+        "longitude": 72.8095,
+        "phone": "0000000000",
+        "hours": "9:00 AM - 6:00 PM"
+    }
+]
