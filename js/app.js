@@ -176,6 +176,8 @@ fetch("data/services.json")
         // Search
         searchInput.addEventListener("input", () => {
 
+            selectedCategory = "all";
+
             filterServices();
 
         });
@@ -187,6 +189,8 @@ fetch("data/services.json")
             button.addEventListener("click", () => {
 
                 selectedCategory = button.dataset.category;
+
+                searchInput.value = "";
 
                 filterServices();
 
@@ -237,14 +241,28 @@ fetch("data/services.json")
                     );
 
 
-                    // Move map to user
-                    map.setView(
+                    // Show user's location and all service locations
+                    const bounds = L.latLngBounds([
                         [
                             userLocation.latitude,
                             userLocation.longitude
-                        ],
-                        15
-                    );
+                        ]
+                    ]);
+
+
+                    services.forEach(service => {
+
+                        bounds.extend([
+                            service.latitude,
+                            service.longitude
+                        ]);
+
+                    });
+
+
+                    map.fitBounds(bounds, {
+                        padding: [40, 40]
+                    });
 
 
                     // Add user marker

@@ -1,62 +1,2082 @@
 [
-    {
-        "id": 1,
-        "name": "Sample General Hospital",
-        "category": "hospital",
-        "address": "Sample Address",
-        "latitude": 19.4559,
-        "longitude": 72.8110,
-        "phone": "0000000000",
-        "hours": "Open 24 hours"
-    },
-    {
-        "id": 2,
-        "name": "Sample Pharmacy",
-        "category": "pharmacy",
-        "address": "Sample Address",
-        "latitude": 19.4580,
-        "longitude": 72.8140,
-        "phone": "0000000000",
-        "hours": "9:00 AM - 10:00 PM"
-    },
-    {
-        "id": 3,
-        "name": "Sample Police Station",
-        "category": "police",
-        "address": "Sample Address",
-        "latitude": 19.4525,
-        "longitude": 72.8085,
-        "phone": "0000000000",
-        "hours": "Open 24 hours"
-    },
-    {
-        "id": 4,
-        "name": "Sample Public Toilet",
-        "category": "toilet",
-        "address": "Sample Address",
-        "latitude": 19.4600,
-        "longitude": 72.8160,
-        "phone": "",
-        "hours": "6:00 AM - 10:00 PM"
-    },
-    {
-        "id": 5,
-        "name": "Sample School",
-        "category": "school",
-        "address": "Sample Address",
-        "latitude": 19.4540,
-        "longitude": 72.8130,
-        "phone": "0000000000",
-        "hours": "8:00 AM - 3:00 PM"
-    },
-    {
-        "id": 6,
-        "name": "Sample Essential Service",
-        "category": "other",
-        "address": "Sample Address",
-        "latitude": 19.4570,
-        "longitude": 72.8095,
-        "phone": "0000000000",
-        "hours": "9:00 AM - 6:00 PM"
-    }
+  {
+    "id": 1,
+    "name": "Gurukul Wave International Preschool (Phoolpada)",
+    "category": "school",
+    "address": "D/3, Phoolpada Rd, Metro Colony, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.456203,
+    "longitude": 72.8140333,
+    "phone": "nan",
+    "hours": "Mon–Sat: 9:30 AM–3:30 PM; Sun: Closed"
+  },
+  {
+    "id": 2,
+    "name": "Virar Nagar Parishad School",
+    "category": "school",
+    "address": "D/3, Phoolpada Rd, Metro Colony, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4564965,
+    "longitude": 72.81409,
+    "phone": "nan",
+    "hours": "nan"
+  },
+  {
+    "id": 3,
+    "name": "Zilla Parishad Nehru Hindi Vidyalaya",
+    "category": "school",
+    "address": "Purshottam Parekh Marg, Gaothan, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.452992,
+    "longitude": 72.8095796,
+    "phone": "nan",
+    "hours": "nan"
+  },
+  {
+    "id": 4,
+    "name": "Z P Marathi Primary School",
+    "category": "school",
+    "address": "Gaothan, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4522098,
+    "longitude": 72.8112505,
+    "phone": "nan",
+    "hours": "nan"
+  },
+  {
+    "id": 5,
+    "name": "St Mary High School Virar",
+    "category": "school",
+    "address": "Ram Mandir Rd, Datt Mandir Rd, Doghar Pada, Vartak Ward, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.455895,
+    "longitude": 72.8075532,
+    "phone": "+91 82087 14620",
+    "hours": "Mon–Fri: 9:00 AM–4:00 PM; Sat: 9:00 AM–2:00 PM; Sun: Closed"
+  },
+  {
+    "id": 6,
+    "name": "Shastri Vidyalaya",
+    "category": "school",
+    "address": "Pimpal Wadi, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4520733,
+    "longitude": 72.8135875,
+    "phone": "nan",
+    "hours": "nan"
+  },
+  {
+    "id": 7,
+    "name": "L. B. S. English School",
+    "category": "school",
+    "address": "Mhatre Wadi Rd, Pimpal Wadi, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4521118,
+    "longitude": 72.8135275,
+    "phone": "+91 96378 71210",
+    "hours": "Mon–Sat: 8:00 AM–3:00 PM; Sun: Closed"
+  },
+  {
+    "id": 8,
+    "name": "Just For Kids Playgroup",
+    "category": "school",
+    "address": "Near Shastri Vidyalaya, Pimpal Wadi, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4520733,
+    "longitude": 72.8135875,
+    "phone": "+91 99300 85004",
+    "hours": "Mon–Fri: 9:30 AM–11:30 AM; Sat–Sun: Closed"
+  },
+  {
+    "id": 9,
+    "name": "Twinkle Primary School",
+    "category": "school",
+    "address": "Near Pratik Construction, Baluch Nagar, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4597016,
+    "longitude": 72.8151605,
+    "phone": "+91 98908 40222",
+    "hours": "nan"
+  },
+  {
+    "id": 10,
+    "name": "Smiling Stars Preschool Virar",
+    "category": "school",
+    "address": "Veer Savarkar Marg, behind Daya Smruti Hall, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4602831,
+    "longitude": 72.8146011,
+    "phone": "nan",
+    "hours": "Mon–Fri: 10:00 AM–3:30 PM; Sat–Sun: Closed"
+  },
+  {
+    "id": 11,
+    "name": "St. Peter's Primary School",
+    "category": "school",
+    "address": "Wavtewadi Manvelpada Road, behind Creamy Cake Co., Ekvira Darshan, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4519031,
+    "longitude": 72.8164208,
+    "phone": "+91 250 252 4870",
+    "hours": "Mon: 6:30 AM–8:00 PM; Tue–Sat: 6:30 AM–6:00 PM; Sun: Closed"
+  },
+  {
+    "id": 12,
+    "name": "Annasaheb Vartak Smarak Vidyamandir, Virar",
+    "category": "school",
+    "address": "Gopcharpada, Veer Savarkar Marg, Gawad Wadi, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4625997,
+    "longitude": 72.812821,
+    "phone": "nan",
+    "hours": "Mon–Fri: 7:00 AM–5:30 PM; Sat: 7:00 AM–3:00 PM; Sun: Closed"
+  },
+  {
+    "id": 13,
+    "name": "Rising Kids Preschool",
+    "category": "school",
+    "address": "Shree Hari Om CHSL, P. P. Cross Rd, Virat Nagar, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4501496,
+    "longitude": 72.8080077,
+    "phone": "+91 98602 47503",
+    "hours": "Mon–Sun: 8:00 AM–9:00 PM"
+  },
+  {
+    "id": 14,
+    "name": "Utkarsha Vidyalaya English School",
+    "category": "school",
+    "address": "Viva College Rd, near Y K Nagar, Vartak Ward, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4584913,
+    "longitude": 72.804862,
+    "phone": "nan",
+    "hours": "Mon–Sat: 10:00 AM–9:30 PM; Sun: Closed"
+  },
+  {
+    "id": 15,
+    "name": "Vidya Vihar English High School and Junior College",
+    "category": "school",
+    "address": "Kamanwala Nagar, Virat Nagar, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.449279,
+    "longitude": 72.8072526,
+    "phone": "+91 87665 62448",
+    "hours": "Mon–Sat: 9:00 AM–5:00 PM; Sun: Closed"
+  },
+  {
+    "id": 16,
+    "name": "St. Mary's English High School",
+    "category": "school",
+    "address": "Jivdani Balaji Apt, Naleshwar Nagar, Virar East Railway Station Rd, Ekvira Darshan, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4496013,
+    "longitude": 72.8175048,
+    "phone": "+91 93226 84756",
+    "hours": "nan"
+  },
+  {
+    "id": 17,
+    "name": "National English Primary School Virar East",
+    "category": "school",
+    "address": "Virar East Railway Station Rd, Kargil Nagar, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4492713,
+    "longitude": 72.8172127,
+    "phone": "nan",
+    "hours": "nan"
+  },
+  {
+    "id": 18,
+    "name": "National English School",
+    "category": "school",
+    "address": "Plot No. 55, Padman Sarkar Nagar, Virat Nagar, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.44806,
+    "longitude": 72.8078507,
+    "phone": "+91 93222 31954",
+    "hours": "Mon–Sat: 8:30 AM–2:30 PM; Sun: Closed"
+  },
+  {
+    "id": 19,
+    "name": "S.R.T. Vidyamandir High School & Junior College",
+    "category": "school",
+    "address": "Master Wadi, Gopachar Pada, Veer Savarkar Marg, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4644808,
+    "longitude": 72.8132753,
+    "phone": "+91 70306 04665",
+    "hours": "Mon–Sat: 7:00 AM–5:00 PM; Sun: Closed"
+  },
+  {
+    "id": 20,
+    "name": "Gurukul Pride International School (Virar East)",
+    "category": "school",
+    "address": "Behind D-Mart, Swastik Eptiom, Ekvira Darshan, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4462794,
+    "longitude": 72.8143038,
+    "phone": "+91 77579 44774",
+    "hours": "Mon–Sat: 9:00 AM–5:00 PM; Sun: Closed"
+  },
+  {
+    "id": 21,
+    "name": "Dolphin Playgroup, Nursery, Junior & Senior KG",
+    "category": "school",
+    "address": "Central Park, Gokul Township, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4503718,
+    "longitude": 72.8018679,
+    "phone": "+91 97303 47665",
+    "hours": "Listed on Google as 9:00 AM–3:00 AM (Mon, Tue, Thu), 9:30 AM–2:30 AM (Wed), 9:00 AM–2:30 AM (Fri), 10:00 AM–1:30 AM (Sat); Sun: Closed — likely a listing error, verify"
+  },
+  {
+    "id": 22,
+    "name": "Little Millennium Preschool",
+    "category": "school",
+    "address": "Jivdani Sadan, Veer Savarkar Marg, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4670473,
+    "longitude": 72.8161488,
+    "phone": "+91 8071 867 249",
+    "hours": "Mon–Sat: 8:00 AM–8:00 PM; Sun: Closed"
+  },
+  {
+    "id": 23,
+    "name": "Gurukul Wave International Preschool (Pizza Hut Branch)",
+    "category": "school",
+    "address": "Global City Road, behind Pizza Hut, Y K Nagar, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4659193,
+    "longitude": 72.8050442,
+    "phone": "nan",
+    "hours": "Mon, Tue, Thu–Sat: 9:30 AM–3:30 PM; Wed: 8:00 AM–4:00 PM; Sun: Closed"
+  },
+  {
+    "id": 24,
+    "name": "St Xavier's High English School, Virar West",
+    "category": "school",
+    "address": "Tirupati Nagar Phase 2, Bolinj, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4552125,
+    "longitude": 72.7989219,
+    "phone": "+91 788 788 8371",
+    "hours": "Open 24 hours, all days (as listed)"
+  },
+  {
+    "id": 25,
+    "name": "Gurukul Synergy International School (IGCSE)",
+    "category": "school",
+    "address": "After Pizza Hut, Global City, Chikhaldongari Rd, Y K Nagar, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4668573,
+    "longitude": 72.8051721,
+    "phone": "nan",
+    "hours": "Mon–Sat: 9:00 AM–5:00 PM; Sun: Closed"
+  },
+  {
+    "id": 26,
+    "name": "Gurukul Wave Virar East (Manvelpada Branch)",
+    "category": "school",
+    "address": "Disha Apartment, Manvelpada Rd, opp. Ashraya Hotel, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4474055,
+    "longitude": 72.8219757,
+    "phone": "nan",
+    "hours": "Mon–Sat: 9:00 AM–3:30 PM; Sun: Closed"
+  },
+  {
+    "id": 27,
+    "name": "Gurukul Excellence International School",
+    "category": "school",
+    "address": "Between Pizza Hut and Cosmos Square, Chikhal Dongari, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4671128,
+    "longitude": 72.8050371,
+    "phone": "+91 70281 90007",
+    "hours": "Mon–Sat: 9:00 AM–5:00 PM; Sun: Closed"
+  },
+  {
+    "id": 28,
+    "name": "HLP High School",
+    "category": "school",
+    "address": "Phatak Road, near GM Hotel, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4689626,
+    "longitude": 72.8139576,
+    "phone": "+91 88302 36927",
+    "hours": "Mon–Fri: 9:00 AM–5:00 PM; Sat: 9:00 AM–1:00 PM; Sun: Closed"
+  },
+  {
+    "id": 29,
+    "name": "Muljibhai Mehta International School",
+    "category": "school",
+    "address": "Gokul Township, Agashi Road, Bolinj, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4506071,
+    "longitude": 72.7988003,
+    "phone": "+91 788 788 5780",
+    "hours": "nan"
+  },
+  {
+    "id": 30,
+    "name": "Mount Mary English High School & Jr College",
+    "category": "school",
+    "address": "Phoolpada Rd, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4535367,
+    "longitude": 72.8260145,
+    "phone": "+91 83088 83081",
+    "hours": "Mon–Fri: 10:00 AM–6:00 PM; Sat: 10:00 AM–3:00 PM; Sun: Closed"
+  },
+  {
+    "id": 31,
+    "name": "Ved Masters School",
+    "category": "school",
+    "address": "Sai Charan Apts, Phoolpada Rd, near Z.P. School, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.454519,
+    "longitude": 72.8265545,
+    "phone": "+91 98196 76622",
+    "hours": "Mon–Sat: 9:00 AM–8:00 PM; Sun: 11:00 AM–8:00 PM"
+  },
+  {
+    "id": 32,
+    "name": "Sweet Petals Pre-Primary School and Activity Centre",
+    "category": "school",
+    "address": "Tulsi Height, Manvelpada Rd, near Don Bosco Church, Ekvira Darshan, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4448809,
+    "longitude": 72.82078,
+    "phone": "+91 86004 83600",
+    "hours": "Mon–Fri: 9:30 AM–7:00 PM; Sat–Sun: 10:30 AM–4:00 PM"
+  },
+  {
+    "id": 33,
+    "name": "Gurukul Pride International School (Virar West)",
+    "category": "school",
+    "address": "Viva College Rd, near D Mart, Y K Nagar, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4620105,
+    "longitude": 72.7976853,
+    "phone": "nan",
+    "hours": "Mon–Sat: 9:00 AM–5:00 PM; Sun: Closed"
+  },
+  {
+    "id": 34,
+    "name": "Lokmanya Hindi High School & Bharati Academy English School",
+    "category": "school",
+    "address": "Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4562257,
+    "longitude": 72.8273855,
+    "phone": "+91 93251 97057",
+    "hours": "Mon–Sun: 10:00 AM–1:30 PM and 6:00 PM–10:00 PM"
+  },
+  {
+    "id": 35,
+    "name": "Smt Taramai Vartak Memorial Academy",
+    "category": "school",
+    "address": "Panch Payari Marg, opp. Jivdani, Naringi, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4703122,
+    "longitude": 72.8165865,
+    "phone": "+91 77698 51113",
+    "hours": "Mon–Sat: 9:00 AM–5:00 PM; Sun: Closed"
+  },
+  {
+    "id": 36,
+    "name": "Gurukul Wave International Preschool (Global City)",
+    "category": "school",
+    "address": "Poonam Park View, Evershine Global City, Dongarpada, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4712162,
+    "longitude": 72.8090486,
+    "phone": "nan",
+    "hours": "Mon–Sat: 9:30 AM–3:30 PM; Sun: Closed"
+  },
+  {
+    "id": 37,
+    "name": "Matrix Academy School, Virar West",
+    "category": "school",
+    "address": "Gulmohar Heritage, Olanda Naka, Agashi Rd, Kharodi Naka, Bolinj, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4463245,
+    "longitude": 72.79625,
+    "phone": "+91 99605 50408",
+    "hours": "Mon–Sat: 7:00 AM–6:00 PM; Sun: Closed"
+  },
+  {
+    "id": 38,
+    "name": "K L Memorial High School, Manvelpada",
+    "category": "school",
+    "address": "Rukmini Bungalow, Manvelpada Gaon, Ekvira Darshan, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4418308,
+    "longitude": 72.8257534,
+    "phone": "+91 81042 66399",
+    "hours": "Mon–Fri: 7:30 AM–1:30 PM; Sat: 10:00 AM–2:00 PM; Sun: Closed"
+  },
+  {
+    "id": 39,
+    "name": "Royal Public School",
+    "category": "school",
+    "address": "Manvel Pada - Kargil Nagar Rd, Manvelpada Gaon, Kargil Nagar, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4430378,
+    "longitude": 72.8278947,
+    "phone": "nan",
+    "hours": "Mon–Fri: 7:00 AM–6:00 PM; Sat: 9:00 AM–6:00 PM; Sun: Closed"
+  },
+  {
+    "id": 40,
+    "name": "Ramakrishna School, Bolinj",
+    "category": "school",
+    "address": "Green Space Building, near Syndicate Bank, Bolinj, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4457628,
+    "longitude": 72.7921935,
+    "phone": "nan",
+    "hours": "nan"
+  },
+  {
+    "id": 41,
+    "name": "St. Patrick's Convent School",
+    "category": "school",
+    "address": "Gala Nagar, Ekvira Darshan, Virar East, Vasai-Virar, Maharashtra",
+    "latitude": 19.4341886,
+    "longitude": 72.8170818,
+    "phone": "nan",
+    "hours": "nan"
+  },
+  {
+    "id": 42,
+    "name": "Marathi School (Bolinj)",
+    "category": "school",
+    "address": "Sopara - Bolinj Rd, Bolinj, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4382221,
+    "longitude": 72.796718,
+    "phone": "nan",
+    "hours": "nan"
+  },
+  {
+    "id": 43,
+    "name": "Kidzee - Kashyap Gurukul",
+    "category": "school",
+    "address": "Sopara - Bolinj Rd, Bolinj, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4372431,
+    "longitude": 72.7964508,
+    "phone": "+91 86686 22906",
+    "hours": "Mon–Fri: 8:00 AM–6:00 PM; Sat: 8:00 AM–12:30 PM; Sun: Closed"
+  },
+  {
+    "id": 44,
+    "name": "Shree Balaji Hospital",
+    "category": "hospital",
+    "address": "B wing, Mirza Nagar, near Virar Railway Station, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4552472,
+    "longitude": 72.8129111,
+    "phone": "+91 77090 73579",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 45,
+    "name": "Sushila Pediatric Hospital",
+    "category": "hospital",
+    "address": "Jain Mandir Rd, Chorghe Wadi, Vartak Ward, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4568071,
+    "longitude": 72.8099628,
+    "phone": "+91 76664 34484",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 46,
+    "name": "Saarthak Maternity and Nursing Home",
+    "category": "hospital",
+    "address": "Viva Mall Tower, Pushpanagar, Purshottam Parekh Marg, Gaothan, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4511279,
+    "longitude": 72.8095506,
+    "phone": "+91 84089 97863",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 47,
+    "name": "Shreeji Nursing Home",
+    "category": "hospital",
+    "address": "Sonal Apartment, 1st Floor, Agashi (Raje Shivaji) Rd, Doghar Pada, Sheetal Nagar, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4520175,
+    "longitude": 72.8073263,
+    "phone": "+91 98905 44914",
+    "hours": "Mon–Sat: 11:00 AM–1:00 PM, 7:00 PM–9:00 PM; Sun: 7:00 PM–9:00 PM"
+  },
+  {
+    "id": 48,
+    "name": "Virar Maternity Nursing Home",
+    "category": "hospital",
+    "address": "Vishal Apartment, near petrol pump, Doghar Pada, Sheetal Nagar, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4517243,
+    "longitude": 72.8068956,
+    "phone": "+91 77570 42645",
+    "hours": "nan"
+  },
+  {
+    "id": 49,
+    "name": "Dr Arti Goyal / M M Eye Hospital",
+    "category": "hospital",
+    "address": "Vastushilp Tower, Ekvira Darshan, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4502022,
+    "longitude": 72.8149686,
+    "phone": "+91 99879 92728",
+    "hours": "Mon–Sat: 10:00 AM–7:00 PM; Sun: Closed"
+  },
+  {
+    "id": 50,
+    "name": "GOC Multispeciality Hospital (Dr. Jigar J. Vala)",
+    "category": "hospital",
+    "address": "Satsang Annex, Viva College Rd, opp. Reliance Mall, Tirupati Nagar Phase II, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4559568,
+    "longitude": 72.8037761,
+    "phone": "+91 91191 16948",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 51,
+    "name": "Creeti-Care Multispeciality Hospital",
+    "category": "hospital",
+    "address": "Bayabai Shopping Complex, Agashi Rd, near Jakat Naka, Virat Nagar, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4507,
+    "longitude": 72.806,
+    "phone": "+91 86693 56858",
+    "hours": "nan"
+  },
+  {
+    "id": 52,
+    "name": "Omkar Hospital (Diabetes, Critical Care, Orthopedic & Surgery)",
+    "category": "hospital",
+    "address": "Agashi Rd, Sheetal Nagar, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4504294,
+    "longitude": 72.8054986,
+    "phone": "+91 98810 12380",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 53,
+    "name": "Vatsalya Maternity, Nursing Home And Fertility Centre",
+    "category": "hospital",
+    "address": "Mohak Chambers, Om, Manvelpada Rd, Ekvira Darshan, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4494566,
+    "longitude": 72.8173725,
+    "phone": "+91 95458 44416",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 54,
+    "name": "Param Hospital - Maternity and Multispeciality",
+    "category": "hospital",
+    "address": "First Floor, Ambo Vihar, Building No. 7, Phase 1, Tirupati Nagar, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4546492,
+    "longitude": 72.8026381,
+    "phone": "+91 93200 55215",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 55,
+    "name": "Nexus Multi-speciality Hospital, ICU & Trauma Centre",
+    "category": "hospital",
+    "address": "Makwana Complex, Veer Savarkar Marg, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4644624,
+    "longitude": 72.8144811,
+    "phone": "+91 97662 63957",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 56,
+    "name": "Radiant Hospital",
+    "category": "hospital",
+    "address": "Virar East Railway Station Rd, next to Sheetal Anjali, near D-Mart, Ekvira Darshan, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4467956,
+    "longitude": 72.8143207,
+    "phone": "+91 86685 92108",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 57,
+    "name": "Global Hospital",
+    "category": "hospital",
+    "address": "Yashwant Siddhi Apts, YK Nagar NX Rd, behind Hotel Star Planet, Y K Nagar, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4627519,
+    "longitude": 72.8039067,
+    "phone": "+91 84590 70015",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 58,
+    "name": "Infigo Eye Care Hospital, Virar",
+    "category": "hospital",
+    "address": "Twin Tower, B Wing, near Vijay Sales, Chintamani Vihar, Tirupati Nagar, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4546199,
+    "longitude": 72.8009097,
+    "phone": "+91 93727 66491",
+    "hours": "Mon–Sat: 10:00 AM–8:00 PM; Sun: 10:00 AM–2:00 PM"
+  },
+  {
+    "id": 59,
+    "name": "Tulip Maternity and Nursing Home",
+    "category": "hospital",
+    "address": "Shop E01, E02, Gokul Park Building, Viva College Rd, opp. D-Mart, Y K Nagar, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4607915,
+    "longitude": 72.8017637,
+    "phone": "+91 83907 87728",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 60,
+    "name": "Sachren Orthopaedic Hospital & IVF Centre",
+    "category": "hospital",
+    "address": "Yashwant Vihar Complex, beside Nalasopara Link Rd, Gokul Township, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.446468,
+    "longitude": 72.8056233,
+    "phone": "+91 85300 46800",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 61,
+    "name": "Virar Criticare Hospital",
+    "category": "hospital",
+    "address": "Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4664739,
+    "longitude": 72.8154229,
+    "phone": "nan",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 62,
+    "name": "Sahayog Hospital And Research Centre",
+    "category": "hospital",
+    "address": "Yashwant Vihar Complex, behind MHADA ground, Bolinj, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4469454,
+    "longitude": 72.8042946,
+    "phone": "+91 77982 20982",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 63,
+    "name": "Wellcare Multispeciality Hospital Virar",
+    "category": "hospital",
+    "address": "Yashwant Sut Tower, 1st Floor, YK Nagar NX Rd, Y K Nagar, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4648652,
+    "longitude": 72.8040928,
+    "phone": "+91 93564 70442",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 64,
+    "name": "Anusaya Children Hospital",
+    "category": "hospital",
+    "address": "Ground Floor, Global City Rd, opp. McDonald's, Dongarpada, Y K Nagar, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4659009,
+    "longitude": 72.8053343,
+    "phone": "+91 77759 91114",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 65,
+    "name": "Dr Manohar Patil Niramay Children & Multispeciality Hospital",
+    "category": "hospital",
+    "address": "Behind Smart Bazar, Y K Nagar, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4650251,
+    "longitude": 72.8041026,
+    "phone": "+91 98902 36676",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 66,
+    "name": "Prakriti Hospital",
+    "category": "hospital",
+    "address": "Viva Swarganga Complex, Agashi Rd, Gokul Township, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4463039,
+    "longitude": 72.7999515,
+    "phone": "+91 76770 77707",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 67,
+    "name": "Sahyadri Multispeciality Hospital",
+    "category": "hospital",
+    "address": "Cosmos Square, Rustomjee Global City, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.46875,
+    "longitude": 72.803941,
+    "phone": "+91 75585 29054",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 68,
+    "name": "Yashoda Hospital (Children, General, Multispeciality)",
+    "category": "hospital",
+    "address": "B/10 Madhu Maitry Apt, beside PMC Bank, Manvel Pada Rd, Ekvira Darshan, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.444473,
+    "longitude": 72.822012,
+    "phone": "+91 80807 15619",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 69,
+    "name": "Parkview Hospital",
+    "category": "hospital",
+    "address": "H wing, Poonam Park View Building, Evershine Global City, Dongarpada, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4712112,
+    "longitude": 72.808979,
+    "phone": "+91 99754 04401",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 70,
+    "name": "Priyadarshani Nursing Home",
+    "category": "hospital",
+    "address": "Kargil Nagar Rd, Manvel Pada Talav, Ekvira Darshan, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4441835,
+    "longitude": 72.8233487,
+    "phone": "+91 96077 71296",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 71,
+    "name": "Aarush Multispeciality Hospital",
+    "category": "hospital",
+    "address": "Suruchi Appt, Mohak City, Ekvira Darshan, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.441114,
+    "longitude": 72.8188097,
+    "phone": "+91 98190 04013",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 72,
+    "name": "Global Care Hospital",
+    "category": "hospital",
+    "address": "Rustomjee L1, Evershine Global City, Dongarpada, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4720214,
+    "longitude": 72.8055688,
+    "phone": "+91 91560 05885",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 73,
+    "name": "New Global Hospital (Dr. Sonu Puri)",
+    "category": "hospital",
+    "address": "1st Floor, H Wing, HDIL, Sector 2, Shubham Paradise, Chikhal Dongari, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4698763,
+    "longitude": 72.7996521,
+    "phone": "+91 70214 35199",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 74,
+    "name": "Ekvvira Hospital",
+    "category": "hospital",
+    "address": "Shop 8, Bhavani View Apartment, opp. Ekta Parksville, Rustomjee Global City, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4712599,
+    "longitude": 72.8007437,
+    "phone": "+91 70303 69122",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 75,
+    "name": "Shree Multispeciality Hospital",
+    "category": "hospital",
+    "address": "C.F.C Building No.-1, Puspa Park Residency, opp. Saptashringi Mandir, near Bolinj Naka, Padmavati Nagar, Bolinj, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4481771,
+    "longitude": 72.791432,
+    "phone": "nan",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 76,
+    "name": "Mahalaxmi Medical Store",
+    "category": "pharmacy",
+    "address": "Vartak Rd, opp. Railway Station, near Shreya Hotel, Vartak Ward, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4555056,
+    "longitude": 72.8113052,
+    "phone": "+91 98605 89111",
+    "hours": "Mon–Sat: 7:00 AM–11:00 PM; Sun: 7:00 AM–12:00 AM"
+  },
+  {
+    "id": 77,
+    "name": "Sushila Pharmacy",
+    "category": "pharmacy",
+    "address": "Ground Floor, Sushila Pediatric Hospital, Chorghe Wadi, Jain Mandir Rd, Vartak Ward, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4567839,
+    "longitude": 72.8097042,
+    "phone": "nan",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 78,
+    "name": "Siddhhivinayak Medical",
+    "category": "pharmacy",
+    "address": "Shop 2, 3, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4560512,
+    "longitude": 72.8147264,
+    "phone": "+91 82750 26880",
+    "hours": "Mon–Sat: 8:00 AM–11:00 PM; Sun: 8:00 AM–2:00 PM"
+  },
+  {
+    "id": 79,
+    "name": "Shree Durga Chemist",
+    "category": "pharmacy",
+    "address": "Shop 13, Vitthal Niwas, Jivdani Rd, Gawad Wadi, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4596229,
+    "longitude": 72.8137647,
+    "phone": "+91 80108 55219",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 80,
+    "name": "Swaroop Medical",
+    "category": "pharmacy",
+    "address": "Shop 2, Su-Shalini CHS, Vartak Rd, near Dongarpada, Kolwadi, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4598479,
+    "longitude": 72.8088839,
+    "phone": "+91 98604 99001",
+    "hours": "Mon–Fri: 8:30 AM–11:00 PM; Sat: 8:40 AM–11:00 PM; Sun: 8:30 AM–10:00 PM"
+  },
+  {
+    "id": 81,
+    "name": "Maxwell Forever 365 Generic",
+    "category": "pharmacy",
+    "address": "Shop 6, Sonal Apartment, Agashi Rd, opp. Ruchi Hotel, near Desai Maternity Hospital, Doghar Pada, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4520189,
+    "longitude": 72.8073281,
+    "phone": "+91 84215 39673",
+    "hours": "Mon–Sun: 9:00 AM–12:30 AM"
+  },
+  {
+    "id": 82,
+    "name": "Zeno Health Pharmacy (Veer Savarkar Rd)",
+    "category": "pharmacy",
+    "address": "Shop 13, Laxmi Niwas, opp. Asha Industrial Estate, Veer Savarkar Rd, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.461597,
+    "longitude": 72.814476,
+    "phone": "+91 93219 66244",
+    "hours": "Mon–Sun: 8:00 AM–11:00 PM"
+  },
+  {
+    "id": 83,
+    "name": "Shubhkamna Medical & General Store",
+    "category": "pharmacy",
+    "address": "Shop 12, Amreet Estate, V S Road, opp. Virar Motors, near Singal Railway Crossing, Sai Datt Nagar, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4627626,
+    "longitude": 72.8147293,
+    "phone": "+91 95941 17067",
+    "hours": "Mon–Sun: 9:00 AM–11:00 PM"
+  },
+  {
+    "id": 84,
+    "name": "Mangal Murti Medical And General Store",
+    "category": "pharmacy",
+    "address": "Shop 9, Yashwant Kunj Building, near old Viva College, Tirupati Nagar Phase II, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4578165,
+    "longitude": 72.8042242,
+    "phone": "+91 98282 11337",
+    "hours": "Mon–Sun: 7:30 AM–11:30 PM"
+  },
+  {
+    "id": 85,
+    "name": "Parimal Medical and General Store",
+    "category": "pharmacy",
+    "address": "Shop 1, Tirupati Balaji Apartment, Morya Nagar, Manvel Pada - Kargil Nagar Rd, Ekvira Darshan, Virar East, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4496206,
+    "longitude": 72.8160156,
+    "phone": "+91 99237 76301",
+    "hours": "Mon–Sat: 8:00 AM–11:00 PM; Sun: Closed"
+  },
+  {
+    "id": 86,
+    "name": "Nilkanth Medical and General Store",
+    "category": "pharmacy",
+    "address": "Maitry Park Building 1, Ambo Patil Rd, Ambo Vihar, Tirupati Nagar Phase II, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4549994,
+    "longitude": 72.8033414,
+    "phone": "+91 88309 42377",
+    "hours": "Mon–Sun: 10:00 AM–10:00 PM"
+  },
+  {
+    "id": 87,
+    "name": "Durga Medical & General Stores",
+    "category": "pharmacy",
+    "address": "Shop 33, Viva Dronagiri, Virar East Railway Station Rd, Ekvira Darshan, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4494218,
+    "longitude": 72.8171224,
+    "phone": "+91 97678 36160",
+    "hours": "Mon–Sat: 9:30 AM–10:00 PM; Sun: 9:30 AM–1:30 PM"
+  },
+  {
+    "id": 88,
+    "name": "New Kamal Deep Medical And General Store",
+    "category": "pharmacy",
+    "address": "Shop 4, Mangal Karyalay, Sai Datt Nagar, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4636702,
+    "longitude": 72.8147604,
+    "phone": "+91 91685 47769",
+    "hours": "Mon–Sun: 8:00 AM–11:00 PM"
+  },
+  {
+    "id": 89,
+    "name": "Aashirwad Medical and General Store",
+    "category": "pharmacy",
+    "address": "Shop 2, Rishi Virar Complex, Virar East Railway Station Rd, Ekvira Darshan, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4492404,
+    "longitude": 72.8172536,
+    "phone": "+91 90045 12542",
+    "hours": "Mon: 12:00 AM–11:00 PM; Tue–Sat: 8:00 AM–11:00 PM; Sun: 8:00 AM–2:00 PM, 6:00 PM–12:00 AM"
+  },
+  {
+    "id": 90,
+    "name": "Zeno Health Pharmacy (Tirupati Nagar Phase 2)",
+    "category": "pharmacy",
+    "address": "Shop 15, Vinay Kutir Bldg 1, Chintamani Vihar, Tirupati Nagar Phase 2, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4551453,
+    "longitude": 72.8015564,
+    "phone": "+91 85914 06206",
+    "hours": "Mon–Sun: 8:00 AM–11:00 PM"
+  },
+  {
+    "id": 91,
+    "name": "Zeelab Pharmacy (Tirupati Nagar)",
+    "category": "pharmacy",
+    "address": "Shop 14, Vinay Kutir, Ambo Vihar, Tirupati Nagar Phase II, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.454997,
+    "longitude": 72.8015041,
+    "phone": "+91 98962 78033",
+    "hours": "Mon–Sun: 8:00 AM–11:00 PM"
+  },
+  {
+    "id": 92,
+    "name": "Wellness Forever Pharmacy (Yashwant Prestige)",
+    "category": "pharmacy",
+    "address": "Shop 3, Yashwant Prestige, opp. New Viva College, behind D-Mart, Tirupati Nagar Phase II, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4581028,
+    "longitude": 72.8014566,
+    "phone": "+91 84466 61279",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 93,
+    "name": "Mumbai Medical Chemist & Druggist",
+    "category": "pharmacy",
+    "address": "Shop 1, 2, Yogiraj Building, Agashi Rd, near Sahyog Hospital, MHADA Complex, Gokul Township, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.446941,
+    "longitude": 72.8037746,
+    "phone": "+91 79729 99072",
+    "hours": "Mon–Sun: 8:00 AM–12:00 AM"
+  },
+  {
+    "id": 94,
+    "name": "Shree V.D. Medical & General Store",
+    "category": "pharmacy",
+    "address": "Shop A-23, Magnum Bldg, Viva Gokul Complex, Bolinj Rd, Agashi, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4477621,
+    "longitude": 72.8009469,
+    "phone": "nan",
+    "hours": "Mon–Sun: 7:00 AM–11:30 PM"
+  },
+  {
+    "id": 95,
+    "name": "Parag Medical Shop",
+    "category": "pharmacy",
+    "address": "Shop 17, Shivraj Building, Agashi Rd, Gokul Township, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4472805,
+    "longitude": 72.8013171,
+    "phone": "+91 98907 29150",
+    "hours": "Mon–Sun: 8:00 AM–1:00 AM"
+  },
+  {
+    "id": 96,
+    "name": "Umang Chemist",
+    "category": "pharmacy",
+    "address": "Shop 14, Shivraj Building, Agashi Rd, opp. Axis Bank, Gokul Township, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4470734,
+    "longitude": 72.8011636,
+    "phone": "+91 99601 64005",
+    "hours": "Mon–Sun: 9:00 AM–11:00 PM"
+  },
+  {
+    "id": 97,
+    "name": "Wellness Forever Chemist & Lifestyle Store (Cosmos Square)",
+    "category": "pharmacy",
+    "address": "Cosmos Square, F20-F21, Chikhaldongari Rd, near Subway, Rustomjee Global City, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4679559,
+    "longitude": 72.8046624,
+    "phone": "nan",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 98,
+    "name": "Maharashtra Medical and General Store",
+    "category": "pharmacy",
+    "address": "Shop 7, Gokul Kshitij, Gokul Township, Bolinj, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.448489,
+    "longitude": 72.7994338,
+    "phone": "+91 99759 38773",
+    "hours": "Mon–Sat: 10:00 AM–10:00 PM; Sun: 9:00 AM–10:30 PM"
+  },
+  {
+    "id": 99,
+    "name": "National Medical and General Stores",
+    "category": "pharmacy",
+    "address": "Viva Swarganga Housing Complex, Bolinj, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4465136,
+    "longitude": 72.8002965,
+    "phone": "+91 83292 17586",
+    "hours": "Mon–Sun: 7:30 AM–11:30 PM"
+  },
+  {
+    "id": 100,
+    "name": "Jai Ambe Medical",
+    "category": "pharmacy",
+    "address": "Avenue M, Dongarpada, Rustomjee Global City, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4693062,
+    "longitude": 72.8044141,
+    "phone": "+91 77560 89103",
+    "hours": "Mon–Sun: 7:30 AM–11:30 PM"
+  },
+  {
+    "id": 101,
+    "name": "Virar Chemist and Druggist",
+    "category": "pharmacy",
+    "address": "Shop 74, Yazoo Park, Evershine Global City, Dongarpada, Rustomjee Global City, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4711143,
+    "longitude": 72.8090315,
+    "phone": "+91 83691 14720",
+    "hours": "Mon–Sun: 9:00 AM–11:30 PM"
+  },
+  {
+    "id": 102,
+    "name": "Mataji Medical and General Stores",
+    "category": "pharmacy",
+    "address": "Shop 1, Shri Siddhi Apt, Sant Nagar, Manvelpada Rd, Ekvira Darshan, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4422812,
+    "longitude": 72.8196798,
+    "phone": "+91 85914 49547",
+    "hours": "Mon–Sun: 9:15 AM–10:30 PM"
+  },
+  {
+    "id": 103,
+    "name": "MedPlus (Agarwal Paramount)",
+    "category": "pharmacy",
+    "address": "Bldg 1, Shop 29, Agarwal Paramount, Avenue Q, Rustomjee Global City, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.46957,
+    "longitude": 72.8036263,
+    "phone": "+91 40 6700 6700",
+    "hours": "Mon–Sun: 7:00 AM–11:00 PM"
+  },
+  {
+    "id": 104,
+    "name": "Zeno Health Pharmacy (Global City)",
+    "category": "pharmacy",
+    "address": "Shop A-14 & 15, Avenue E, Global City, Evershine Homes, opp. Agarwal Lifestyle, Rustomjee Global City, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.468149,
+    "longitude": 72.80105,
+    "phone": "nan",
+    "hours": "Mon–Sun: 9:00 AM–11:00 PM"
+  },
+  {
+    "id": 105,
+    "name": "Prayag Medical Shop",
+    "category": "pharmacy",
+    "address": "Evershine Global City, Dongarpada, Rustomjee Global City, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4709852,
+    "longitude": 72.8052586,
+    "phone": "+91 83291 84192",
+    "hours": "Mon–Sun: 9:00 AM–11:30 PM"
+  },
+  {
+    "id": 106,
+    "name": "Wellness Forever Pharmacy (Dongre Rd)",
+    "category": "pharmacy",
+    "address": "Shop 7, 8, Ground Floor, Village Dongare, Ekvira Darshan, Virar East, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4411969,
+    "longitude": 72.8204127,
+    "phone": "+91 73041 63697",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 107,
+    "name": "Samarth Medical and General Stores",
+    "category": "pharmacy",
+    "address": "Shop 192, Avenue J, Rustomjee Ave, Evershine Global City, Dongarpada, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4723077,
+    "longitude": 72.8071829,
+    "phone": "+91 88887 17933",
+    "hours": "Mon–Sun: 8:00 AM–1:00 AM"
+  },
+  {
+    "id": 108,
+    "name": "V Medical & General Store",
+    "category": "pharmacy",
+    "address": "Near Om Park, Manvelpada Gaon, Ekvira Darshan, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4424961,
+    "longitude": 72.8259963,
+    "phone": "+91 86520 80519",
+    "hours": "Mon–Sun: 8:00 AM–11:00 PM"
+  },
+  {
+    "id": 109,
+    "name": "Anmol Medical & General Store",
+    "category": "pharmacy",
+    "address": "Shop 12, Bolinj Naka, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4443656,
+    "longitude": 72.7941408,
+    "phone": "+91 93582 59428",
+    "hours": "Mon–Sat: 7:30 AM–11:30 PM; Sun: 7:30 AM–2:00 PM, 4:00 PM–11:30 PM"
+  },
+  {
+    "id": 110,
+    "name": "National Chemist",
+    "category": "pharmacy",
+    "address": "Shop 2, Nirmal Apt, Agashi Rd, Bolinj, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4451863,
+    "longitude": 72.7921664,
+    "phone": "+91 70285 13217",
+    "hours": "Mon–Sun: 8:30 AM–11:00 PM"
+  },
+  {
+    "id": 111,
+    "name": "Railway Police Station (Virar)",
+    "category": "police",
+    "address": "Vartak Ward, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4557136,
+    "longitude": 72.8115654,
+    "phone": "nan",
+    "hours": "nan"
+  },
+  {
+    "id": 112,
+    "name": "Virar Police Station",
+    "category": "police",
+    "address": "Shop No 001, Bhaji Market, Station Rd, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4562058,
+    "longitude": 72.8122927,
+    "phone": "nan",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 113,
+    "name": "Virar West Police Chauki",
+    "category": "police",
+    "address": "Station Rd, Gaothan, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4530688,
+    "longitude": 72.8088005,
+    "phone": "+91 250 252 8222",
+    "hours": "Mon–Sun: 9:00 AM–10:00 PM"
+  },
+  {
+    "id": 114,
+    "name": "Jivdani Road / Fulpada Police Chauki",
+    "category": "police",
+    "address": "Hill Park, Annasaheb Vartak Colony, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4599169,
+    "longitude": 72.8195883,
+    "phone": "nan",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 115,
+    "name": "Bolinj Police Station",
+    "category": "police",
+    "address": "Padman Sarkar Nagar, Virat Nagar, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4478357,
+    "longitude": 72.8053793,
+    "phone": "nan",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 116,
+    "name": "SBM Toilet (Manvel Pada Rd)",
+    "category": "toilet",
+    "address": "Manvel Pada Rd, near Solanki Lake, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4554164,
+    "longitude": 72.8125473,
+    "phone": "nan",
+    "hours": "Mon–Sun: 5:00 AM–11:00 PM"
+  },
+  {
+    "id": 117,
+    "name": "SBM Toilet (Phoolpada Rd)",
+    "category": "toilet",
+    "address": "Phoolpada Rd, Metro Colony, near Municipal Corporation, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4565891,
+    "longitude": 72.8124901,
+    "phone": "nan",
+    "hours": "Mon–Sun: 5:00 AM–12:00 AM"
+  },
+  {
+    "id": 118,
+    "name": "SBM Toilet (Virar West Skywalk)",
+    "category": "toilet",
+    "address": "Virar West Skywalk, near Railway Station, Viva Super Market, Gaothan, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4541847,
+    "longitude": 72.8114962,
+    "phone": "nan",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 119,
+    "name": "SBM Toilet (Vartak Rd)",
+    "category": "toilet",
+    "address": "Vartak Rd, Chaudhari Wadi, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4591216,
+    "longitude": 72.8116338,
+    "phone": "nan",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 120,
+    "name": "Mangal Sauchalay",
+    "category": "toilet",
+    "address": "Virar East Railway Station Rd, near Reliance Fresh, Pimpal Wadi, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4521227,
+    "longitude": 72.8128715,
+    "phone": "nan",
+    "hours": "nan"
+  },
+  {
+    "id": 121,
+    "name": "SBM Toilet (Station Rd, opp. Reliance Fresh)",
+    "category": "toilet",
+    "address": "Virar East Railway Station Rd, opp. Reliance Fresh, Pimpal Wadi, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4518875,
+    "longitude": 72.8129323,
+    "phone": "nan",
+    "hours": "Mon–Sun: 6:00 AM–10:00 PM"
+  },
+  {
+    "id": 122,
+    "name": "SBM Toilet (Gaothan)",
+    "category": "toilet",
+    "address": "Gaothan, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4520533,
+    "longitude": 72.8100483,
+    "phone": "nan",
+    "hours": "Mon–Sun: 5:00 AM–11:00 PM"
+  },
+  {
+    "id": 123,
+    "name": "SBM Toilet (Dongar Pada)",
+    "category": "toilet",
+    "address": "Dongar Pada, near Chudari Chaul, Chaudhari Wadi, Vartak Ward, Virar West, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4607366,
+    "longitude": 72.8115748,
+    "phone": "nan",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 124,
+    "name": "SBM Toilet (Mithbhav Wadi)",
+    "category": "toilet",
+    "address": "Mithbhav Wadi, near Railway Station, Pimpal Wadi, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4507299,
+    "longitude": 72.8133781,
+    "phone": "nan",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 125,
+    "name": "SBM Toilet (Shripal Complex Rd)",
+    "category": "toilet",
+    "address": "Shripal Complex Rd, Virat Nagar, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4519417,
+    "longitude": 72.8077625,
+    "phone": "nan",
+    "hours": "Mon–Fri: 8:00 AM–9:00 PM; Sat–Sun: Closed"
+  },
+  {
+    "id": 126,
+    "name": "SBM Toilet (Vartak Colony)",
+    "category": "toilet",
+    "address": "Near Vartkal Phoolpada, DP Road, Annasaheb Vartak Colony, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4560725,
+    "longitude": 72.8183775,
+    "phone": "nan",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 127,
+    "name": "SBM Toilet (Science Garden)",
+    "category": "toilet",
+    "address": "Near Science Garden, in front of Tandul Bajar, Doghar Pada, Sheetal Nagar, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4507,
+    "longitude": 72.8055681,
+    "phone": "nan",
+    "hours": "Mon–Sun: 4:00 AM–11:00 PM"
+  },
+  {
+    "id": 128,
+    "name": "Vasai Vikas Sahakari Bank Ltd.",
+    "category": "other",
+    "address": "226, Thakur Arcade, 3rd Floor, Above Viva Supermarket, Outside Virar Station, Gaothan, Virar East, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4545627,
+    "longitude": 72.8116162,
+    "phone": "nan",
+    "hours": "Mon–Sat: 10:00 AM–1:00 PM & 4:00 PM–6:30 PM; Sun: 10:00 AM–12:45 PM"
+  },
+  {
+    "id": 129,
+    "name": "Abhyudaya Co-operative Bank Ltd",
+    "category": "other",
+    "address": "Ground Floor, Mataji Kripa, Phoolpada Rd, opp. Mahanagarpalika Library, Metro Colony, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4565228,
+    "longitude": 72.8144168,
+    "phone": "+91 250 252 4161",
+    "hours": "Mon–Fri: 8:00 AM–1:30 PM & 3:00 PM–8:30 PM; Sat: Closed; Sun: 8:30 AM–2:00 PM"
+  },
+  {
+    "id": 130,
+    "name": "Saraswat Co-operative Bank Ltd. (Virar West)",
+    "category": "other",
+    "address": "Shrikrishna Bhuvan, Agashi Rd, opposite Vitthal Mandir, Gaothan, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4537634,
+    "longitude": 72.8101593,
+    "phone": "+91 86522 59606",
+    "hours": "Mon–Sat: 10:00 AM–3:00 PM; Sun: Closed"
+  },
+  {
+    "id": 131,
+    "name": "SBI Branch Virar (Agashi Rd)",
+    "category": "other",
+    "address": "Sankalp, Agashi Rd, Gaothan, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4537827,
+    "longitude": 72.8100271,
+    "phone": "+91 1800 1234",
+    "hours": "Mon–Sat: 10:00 AM–4:00 PM; Sun: Closed"
+  },
+  {
+    "id": 132,
+    "name": "Union Bank of India (Phoolpada Rd)",
+    "category": "other",
+    "address": "Shop No. 1, Chorge Towers, 2 & 3, Phoolpada Rd, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.455916,
+    "longitude": 72.815209,
+    "phone": "+91 91375 68220",
+    "hours": "Mon–Sat: 10:00 AM–4:00 PM; Sun: Closed"
+  },
+  {
+    "id": 133,
+    "name": "SVC Bank - Virar (East)",
+    "category": "other",
+    "address": "Shop No. 6 to 9, Ground Floor, A-Wing, Chorghe Tower, Vajreshwari Complex, Phoolpada Rd, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4555735,
+    "longitude": 72.8152196,
+    "phone": "+91 86699 95212",
+    "hours": "Mon–Sat: 9:00 AM–3:00 PM; Sun: Closed"
+  },
+  {
+    "id": 134,
+    "name": "HDFC Bank (Pimpal Wadi)",
+    "category": "other",
+    "address": "Ground Floor, Madhu Mangal, next to Chintamani Mandir, Pimpal Wadi, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4528448,
+    "longitude": 72.813262,
+    "phone": "+91 1800 1601",
+    "hours": "Mon–Sat: 9:30 AM–3:30 PM; Sun: Closed"
+  },
+  {
+    "id": 135,
+    "name": "Vasai Janata Sahakari Bank - Virar East Branch",
+    "category": "other",
+    "address": "Bhagwati Plaza, 1st Floor, Nr. Flyover Bridge, Veer Savarkar Marg, Gawad Wadi, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.459128,
+    "longitude": 72.812831,
+    "phone": "+91 250 645 1915",
+    "hours": "Mon–Fri: 9:00 AM–1:00 PM & 3:45 PM–5:15 PM; Sat: Closed; Sun: 9:00 AM–12:00 PM"
+  },
+  {
+    "id": 136,
+    "name": "Bank of India (Virar West)",
+    "category": "other",
+    "address": "Yashwant Sankalp, 1st Floor, Near Vartak Ward Lake, Viva College Rd, Vartak Ward, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4587298,
+    "longitude": 72.8091841,
+    "phone": "+91 250 250 5718",
+    "hours": "Mon–Fri: 9:00 AM–3:00 PM; Sat–Sun: Closed"
+  },
+  {
+    "id": 137,
+    "name": "Punjab National Bank",
+    "category": "other",
+    "address": "SN 2 to 7, Ground Floor, Yeshwant Sankalp, Viva College Rd, near Vartak Ward Lake, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4588131,
+    "longitude": 72.8091829,
+    "phone": "+91 1800 1800",
+    "hours": "Mon–Thu & Sat: 10:00 AM–4:00 PM; Fri & Sun: Closed"
+  },
+  {
+    "id": 138,
+    "name": "SBI Branch Virar (Virar East)",
+    "category": "other",
+    "address": "Ground Floor, Mohak Plaza, near Virar East Railway Station Rd, Pimpal Wadi, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.452255,
+    "longitude": 72.8131617,
+    "phone": "+91 1800 1234",
+    "hours": "Mon–Sat: 10:00 AM–4:00 PM; Sun: Closed"
+  },
+  {
+    "id": 139,
+    "name": "ICICI Bank - Virar East",
+    "category": "other",
+    "address": "MV Plaza, Manvelpada Rd, near Railway Station, Pimpal Wadi, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4522265,
+    "longitude": 72.8131549,
+    "phone": "+91 1800 1080",
+    "hours": "Mon–Sat: 9:30 AM–3:00 PM; Sun: Closed"
+  },
+  {
+    "id": 140,
+    "name": "India Post Payments Bank",
+    "category": "other",
+    "address": "Flat B/201, 2nd Floor, B-Wing, MV Plaza, Manvelpada Rd, Pimpal Wadi, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4522032,
+    "longitude": 72.8131664,
+    "phone": "+91 84648 61154",
+    "hours": "Mon–Sat: 10:00 AM–9:00 PM; Sun: Closed"
+  },
+  {
+    "id": 141,
+    "name": "HDFC Bank (near Virar Railway Station)",
+    "category": "other",
+    "address": "Survey No. 265, Ground Floor, Mhatre Wadi Rd, near Virar Railway Station, Gaothan, Virar East, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4518078,
+    "longitude": 72.8115184,
+    "phone": "+91 1800 1601",
+    "hours": "Mon–Sat: 9:30 AM–3:30 PM; Sun: Closed"
+  },
+  {
+    "id": 142,
+    "name": "Indian Overseas Bank (Virar West)",
+    "category": "other",
+    "address": "Ground Floor, Safalya, Viva College Rd, Vartak Ward, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.45816,
+    "longitude": 72.8080753,
+    "phone": "+91 89259 51901",
+    "hours": "Mon–Sat: 10:00 AM–5:00 PM; Sun: Closed"
+  },
+  {
+    "id": 143,
+    "name": "Bank of Baroda Virar Branch",
+    "category": "other",
+    "address": "G-5, Ground Floor, Suyash Building, Viva College Rd, Vartak Ward, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.457996,
+    "longitude": 72.807764,
+    "phone": "+91 1800 5700",
+    "hours": "Mon–Thu & Sat: 10:00 AM–5:00 PM; Fri & Sun: Closed"
+  },
+  {
+    "id": 144,
+    "name": "Unity Small Finance Bank - Virar",
+    "category": "other",
+    "address": "No. 9, Wing 1A, Ground Floor, Shri Ram Square, Shri Ram Nagar Complex, Vartak Ward, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4596486,
+    "longitude": 72.808501,
+    "phone": "+91 1800 209 1122",
+    "hours": "Mon–Fri: 10:00 AM–5:00 PM; Sat: Closed; Sun: 10:00 AM–2:00 PM"
+  },
+  {
+    "id": 145,
+    "name": "Bank of Maharashtra - Virar Branch",
+    "category": "other",
+    "address": "Shop No. 3, Shree Ram Square, Vartak Rd, near Tata Showroom, Vartak Ward, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4594508,
+    "longitude": 72.8080672,
+    "phone": "+91 1800 233 4526",
+    "hours": "Mon–Sat: 10:00 AM–5:00 PM; Sun: Closed"
+  },
+  {
+    "id": 146,
+    "name": "Vasai Janata Sahakari Bank - Virar West Branch",
+    "category": "other",
+    "address": "Haridarshan Apt., 1st Floor, Raja Chatrapati Shivaji Marg, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.452283,
+    "longitude": 72.80815,
+    "phone": "+91 250 609 9996",
+    "hours": "Mon–Fri: 10:00 AM–1:00 PM & 4:15 PM–6:30 PM (Mon: till 1:30 PM); Sat: Closed; Sun: 10:00 AM–12:45 PM"
+  },
+  {
+    "id": 147,
+    "name": "Kotak Mahindra Bank",
+    "category": "other",
+    "address": "Shop No. 4 to 8, Swastik Paradise, Viva College Rd, Opp. Viva College, Doghar Pada, Vartak Ward, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4574833,
+    "longitude": 72.8046785,
+    "phone": "+91 1800 4100",
+    "hours": "Mon–Sat: 9:30 AM–3:30 PM; Sun: Closed"
+  },
+  {
+    "id": 148,
+    "name": "Central Bank of India - Virar West Branch",
+    "category": "other",
+    "address": "Ground Floor, A1/A2/A3 Regency CFS Ltd, Virat Nagar, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4508889,
+    "longitude": 72.8064805,
+    "phone": "+91 250 250 0050",
+    "hours": "Mon–Sat: 9:00 AM–3:30 PM; Sun: Closed"
+  },
+  {
+    "id": 149,
+    "name": "Model Co-Op Bank Ltd",
+    "category": "other",
+    "address": "Shop No. 1, Gangotri CHS Ltd., Padman Sarkar Nagar, Virat Nagar, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4486425,
+    "longitude": 72.8101948,
+    "phone": "+91 250 251 4976",
+    "hours": "nan"
+  },
+  {
+    "id": 150,
+    "name": "Canara Bank - Virar West",
+    "category": "other",
+    "address": "#11, Ground Floor, Ambo Patil Estate, near Viva College, Tirupati Nagar Phase II, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4551454,
+    "longitude": 72.8035218,
+    "phone": "+91 1800 1030",
+    "hours": "Mon–Sat: 10:00 AM–4:00 PM; Sun: Closed"
+  },
+  {
+    "id": 151,
+    "name": "Bharat Co-operative Bank (Mumbai) Ltd (Virar West)",
+    "category": "other",
+    "address": "Unit 1/2, Bhaji Galli, Poonam Kalpavruksh, Virat Nagar Rd, Virat Nagar, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4490173,
+    "longitude": 72.8072521,
+    "phone": "+91 98673 39063",
+    "hours": "Mon–Sat: 9:30 AM–1:45 PM & 4:00 PM–5:45 PM; Sun: Closed"
+  },
+  {
+    "id": 152,
+    "name": "Union Bank of India (Virat Nagar)",
+    "category": "other",
+    "address": "Yashwant Heights, Bhaji Gali, Virat Nagar, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4490706,
+    "longitude": 72.8067844,
+    "phone": "+91 80 6181 7110",
+    "hours": "Mon–Sat: 9:00 AM–3:00 PM; Sun: Closed"
+  },
+  {
+    "id": 153,
+    "name": "SBI Branch Bolinj Naka Virar",
+    "category": "other",
+    "address": "Y K Nagar, D Mart Rd, Chintamani Vihar, Bolinj Naka, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4598625,
+    "longitude": 72.8039809,
+    "phone": "+91 1800 1234",
+    "hours": "Mon–Sat: 10:00 AM–4:00 PM; Sun: Closed"
+  },
+  {
+    "id": 154,
+    "name": "Yes Bank (Virar West)",
+    "category": "other",
+    "address": "Shop No. B/2, Manibai Gopal Residency, near Viva College, Y K Nagar, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.459943,
+    "longitude": 72.8038088,
+    "phone": "+91 72081 16933",
+    "hours": "Mon–Sat: 9:30 AM–4:30 PM; Sun: Closed"
+  },
+  {
+    "id": 155,
+    "name": "Axis Bank - Virar East",
+    "category": "other",
+    "address": "Ground Floor, Vidya Sadan, Virar East Railway Station Rd, opposite Nirabai Patil Marg, Ekvira Darshan, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4479406,
+    "longitude": 72.8177436,
+    "phone": "+91 1860 500 5555",
+    "hours": "Mon–Sat: 9:30 AM–3:30 PM; Sun: Closed"
+  },
+  {
+    "id": 156,
+    "name": "Bank of Baroda Virar East Branch",
+    "category": "other",
+    "address": "Ground Floor, Vidya Sadan, Manvel Pada, Ekvira Darshan, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4479,
+    "longitude": 72.8178532,
+    "phone": "+91 1800 5700",
+    "hours": "Mon–Thu & Sat: 10:00 AM–5:00 PM; Fri & Sun: Closed"
+  },
+  {
+    "id": 157,
+    "name": "ICICI Bank - Virar West",
+    "category": "other",
+    "address": "Ground Floor, Sai Ratna Apartment, Agashi Rd, opposite MHADA Ground, Bolinj, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.449116,
+    "longitude": 72.8031091,
+    "phone": "+91 1800 1080",
+    "hours": "Mon–Sat: 9:30 AM–3:00 PM; Sun: Closed"
+  },
+  {
+    "id": 158,
+    "name": "SBI Branch Tirupati Nagar Phase I",
+    "category": "other",
+    "address": "Sandeep House, Shop No. 101, Phase-I, M B Road, Tirupati Nagar, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4530742,
+    "longitude": 72.800725,
+    "phone": "+91 1800 1234",
+    "hours": "Mon–Sat: 10:00 AM–4:00 PM; Sun: Closed"
+  },
+  {
+    "id": 159,
+    "name": "Canara Bank (Virar East)",
+    "category": "other",
+    "address": "Manvel Pada Road, Vijayanand Park 2, Ekvira Darshan, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4472709,
+    "longitude": 72.8191491,
+    "phone": "+91 250 252 0368",
+    "hours": "Mon–Fri: 10:00 AM–4:00 PM; Sat–Sun: Closed"
+  },
+  {
+    "id": 160,
+    "name": "HDFC Bank (Tirupati Nagar)",
+    "category": "other",
+    "address": "Shop No. 1 to 7, Yadushree Complex, near Vijay Vallabh Hospital, Tirupati Nagar, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4532173,
+    "longitude": 72.7994257,
+    "phone": "+91 1800 1601",
+    "hours": "Mon–Sat: 9:30 AM–3:30 PM; Sun: Closed"
+  },
+  {
+    "id": 161,
+    "name": "Bank of India Virar East Branch",
+    "category": "other",
+    "address": "1st Floor, Riddhi Siddhi Residency, Veer Savarkar Marg, Opp. Parekh Ind. Estate, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4675441,
+    "longitude": 72.816282,
+    "phone": "+91 250 252 0167",
+    "hours": "Mon–Fri: 9:00 AM–3:00 PM; Sat–Sun: Closed"
+  },
+  {
+    "id": 162,
+    "name": "Axis Bank - Virar (West)",
+    "category": "other",
+    "address": "Unit No. 5, Viva Gokul Arcade, 6/7, Agashi Rd, Gokul Twp, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4475941,
+    "longitude": 72.8008896,
+    "phone": "+91 1860 500 5555",
+    "hours": "Mon–Fri: 9:30 AM–3:30 PM; Sat–Sun: Closed"
+  },
+  {
+    "id": 163,
+    "name": "Ujjivan Small Finance Bank - Virar Branch",
+    "category": "other",
+    "address": "Global City, Dongre Rd, near Agarwal Lifestyle, Avenue, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4671398,
+    "longitude": 72.801307,
+    "phone": "+91 80 6843 4180",
+    "hours": "Mon–Sat: 9:30 AM–4:00 PM; Sun: Closed"
+  },
+  {
+    "id": 164,
+    "name": "ICICI Bank - Virar Global City",
+    "category": "other",
+    "address": "Shop No. B-1, Ground Floor, Blu Pearl, Avenue K-2, Global City Rd, Evershine Global City, Dongarpada, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4709529,
+    "longitude": 72.804257,
+    "phone": "+91 1800 1080",
+    "hours": "Mon–Sat: 9:30 AM–3:00 PM; Sun: Closed"
+  },
+  {
+    "id": 165,
+    "name": "Jana Small Finance Bank Ltd.",
+    "category": "other",
+    "address": "1st Floor, 101 Surbhi Apartment, Bolinj Naka, above Union Bank, Bolinj, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.444542,
+    "longitude": 72.794169,
+    "phone": "+91 1800 2080",
+    "hours": "Mon–Sat: 9:00 AM–4:00 PM; Sun: Closed"
+  },
+  {
+    "id": 166,
+    "name": "SBI Branch Chandansar Virar East",
+    "category": "other",
+    "address": "Broadway Commercial Centre, Chandansar Rd, Virar East, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4739467,
+    "longitude": 72.8255929,
+    "phone": "+91 1800 1234",
+    "hours": "Mon–Sat: 10:00 AM–4:00 PM; Sun: Closed"
+  },
+  {
+    "id": 167,
+    "name": "Canara Bank - Virar West-II (Bolinj Naka)",
+    "category": "other",
+    "address": "Shop No. 1 to 6, Shopper's Plaza, Lok Prabhat Complex, Bolinj Naka, Agashi Rd, Bolinj, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4460975,
+    "longitude": 72.7885831,
+    "phone": "+91 1800 1030",
+    "hours": "Mon–Sat: 10:00 AM–4:00 PM; Sun: Closed"
+  },
+  {
+    "id": 168,
+    "name": "Bank of India ATM",
+    "category": "other",
+    "address": "FR46+7G4, Vartak Ward, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4556474,
+    "longitude": 72.8113227,
+    "phone": "+91 22 4091 9191",
+    "hours": "nan"
+  },
+  {
+    "id": 169,
+    "name": "Union Bank of India ATM",
+    "category": "other",
+    "address": "Nr. Virar East Fish Market, Bazar Ward, D/3, Phoolpada Rd, Metro Colony, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4567798,
+    "longitude": 72.812737,
+    "phone": "+91 80 6181 7110",
+    "hours": "Mon–Sun: 12:00 AM–11:59 PM"
+  },
+  {
+    "id": 170,
+    "name": "Axis Bank ATM - Mirza Shop Cen Virar (E)",
+    "category": "other",
+    "address": "Shop No 21, Mirza Shopping Complex, Bazar Ward, Virar East, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4553644,
+    "longitude": 72.8135368,
+    "phone": "+91 1860 500 5555",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 171,
+    "name": "Punjab National Bank ATM",
+    "category": "other",
+    "address": "Acharya Nivas, Virar East Railway Sation Rd, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4542582,
+    "longitude": 72.8128101,
+    "phone": "nan",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 172,
+    "name": "HDFC Bank ATM (Chintamani Mandir)",
+    "category": "other",
+    "address": "Ground Floor, Madhu Mangal Building, next to Chintamani Mandir, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4538059,
+    "longitude": 72.8122538,
+    "phone": "+91 1800 1601",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 173,
+    "name": "State Bank of India ATM",
+    "category": "other",
+    "address": "FR56+9W6, Gawad Wadi, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4584039,
+    "longitude": 72.8122644,
+    "phone": "+91 1800 11 2211",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 174,
+    "name": "State Bank of India ATM",
+    "category": "other",
+    "address": "Sankalp Building, FR36+H2C, Raja Chatrapati Shivaji Marg, Vartak Ward, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4539294,
+    "longitude": 72.8100143,
+    "phone": "+91 1800 11 2211",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 175,
+    "name": "Bank of India ATM",
+    "category": "other",
+    "address": "1st Fl, Riddhi Siddhi Residency, Veer Savarkar Marg, Opp Parekh Ind Estate, Pimpal Wadi, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4533897,
+    "longitude": 72.8127292,
+    "phone": "+91 22 4091 9191",
+    "hours": "Mon–Sun: 12:00 AM–11:59 PM"
+  },
+  {
+    "id": 176,
+    "name": "Corporation Bank ATM",
+    "category": "other",
+    "address": "Vishnu Prasad Complex, FR35+8X5, Padma Colony Rd, Gaothan, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4532517,
+    "longitude": 72.8099867,
+    "phone": "nan",
+    "hours": "Mon–Sun: 12:00 AM–11:59 PM"
+  },
+  {
+    "id": 177,
+    "name": "ICICI Bank ATM",
+    "category": "other",
+    "address": "M V Plaza, Manvel Pada Road, near Railway Station, Pimpal Wadi, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4522539,
+    "longitude": 72.8132284,
+    "phone": "+91 1800 1080",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 178,
+    "name": "Union Bank ATM",
+    "category": "other",
+    "address": "FR55+773, Vartak Ward, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4581498,
+    "longitude": 72.8081693,
+    "phone": "nan",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 179,
+    "name": "SBI ATM",
+    "category": "other",
+    "address": "Nr, Virar East Railway Sation Rd, Pimpal Wadi, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4510534,
+    "longitude": 72.8135759,
+    "phone": "+91 1800 11 2211",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 180,
+    "name": "IDBI Bank ATM",
+    "category": "other",
+    "address": "FR24+MM3, Doghar Pada, Sheetal Nagar, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.451642,
+    "longitude": 72.8066699,
+    "phone": "nan",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 181,
+    "name": "HDFC Bank ATM (Yashwant Kunj)",
+    "category": "other",
+    "address": "Shop No 7, Yashwant Kunj, opposite Viva College, Chintamani Vihar, Tirupati Nagar Phase II, Y K Nagar, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4581105,
+    "longitude": 72.8041997,
+    "phone": "+91 1800 1601",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 182,
+    "name": "State Bank of India ATM",
+    "category": "other",
+    "address": "FR43+FGM, Narangi Bypass Rd, Chintamani Vihar, Tirupati Nagar Phase II, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4562083,
+    "longitude": 72.8037907,
+    "phone": "+91 1800 11 2211",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 183,
+    "name": "SBI ATM",
+    "category": "other",
+    "address": "Shop No 1, Bldg No 26, Global City Avenue, 55, Narangi Bypass Rd, Y K Nagar, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.462852,
+    "longitude": 72.8051,
+    "phone": "+91 1800 1234",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 184,
+    "name": "HDFC Bank ATM (Agashi Rd, Bolinj)",
+    "category": "other",
+    "address": "Shop No 08, Gr Flr, Shree Siddhi Height, Agashi Rd, opposite Mhada Ground, Bolinj, Virar, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4479019,
+    "longitude": 72.8030762,
+    "phone": "+91 1800 1601",
+    "hours": "Mon–Sun: 12:00 AM–11:45 PM"
+  },
+  {
+    "id": 185,
+    "name": "HDFC Bank ATM (Yashwant Avenue)",
+    "category": "other",
+    "address": "Shop No 3 & 4, 1st Flr, Sy No 134, Yashwant Avenue, Global City, Y K Nagar, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4656047,
+    "longitude": 72.8033511,
+    "phone": "+91 1800 1601",
+    "hours": "Mon–Sun: 12:00 AM–11:45 PM"
+  },
+  {
+    "id": 186,
+    "name": "ICICI Bank ATM - Virar (Agashi Rd)",
+    "category": "other",
+    "address": "Ground Floor, Sai Ratan Apartment, Agashi Rd, opposite Mhada Ground, Bolinj, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4423428,
+    "longitude": 72.8079934,
+    "phone": "+91 1800 1080",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 187,
+    "name": "Axis Bank ATM - Global City",
+    "category": "other",
+    "address": "Ground Floor, Office No.02, Poonam Avenue CHS, Dongre, Global City, near Agarwal Paramount, Rustomjee Global City, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.467893,
+    "longitude": 72.802652,
+    "phone": "+91 1860 500 5555",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 188,
+    "name": "ICICI Bank ATM - Virar - Global City",
+    "category": "other",
+    "address": "Shop No. B-1, Ground Floor, Blu Pearl, Avenue K-2, Global City Road, Evershine Global City, Dongarpada, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4709529,
+    "longitude": 72.804257,
+    "phone": "+91 1800 1080",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 189,
+    "name": "Axis Bank ATM - Global City Virar (W)",
+    "category": "other",
+    "address": "Shop No 16/A, Bld 4/J, Avenue, Rustamji, Evershine Global City, Dongarpada, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4721742,
+    "longitude": 72.8057242,
+    "phone": "+91 1860 500 5555",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 190,
+    "name": "SBI ATM",
+    "category": "other",
+    "address": "Sankalp, Agashi Rd, Bolinj, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4425,
+    "longitude": 72.7973,
+    "phone": "+91 1800 1234",
+    "hours": "Mon–Sun: Open 24 hours"
+  },
+  {
+    "id": 191,
+    "name": "Virar Police Station",
+    "category": "other",
+    "address": "Bhaji Market, Station Rd, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4562058,
+    "longitude": 72.8122927,
+    "phone": "nan",
+    "hours": "Open 24 hours"
+  },
+  {
+    "id": 192,
+    "name": "Ward B Vasai Virar Shahar Mahanagar Palika",
+    "category": "other",
+    "address": "1, Virar East Railway Station Rd, Opp. Virar Police Station, Bazar Ward, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.456104,
+    "longitude": 72.812527,
+    "phone": "nan",
+    "hours": "Mon–Fri: 10:00 AM–6:00 PM; Sat–Sun: 10:00 AM–2:00 PM"
+  },
+  {
+    "id": 193,
+    "name": "Vasai-Virar City Municipal Corporation Prabhag Samiti (C) Chandansar",
+    "category": "other",
+    "address": "Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4568167,
+    "longitude": 72.8129452,
+    "phone": "nan",
+    "hours": "Mon–Fri: 10:00 AM–6:30 PM; Sat–Sun: Closed"
+  },
+  {
+    "id": 194,
+    "name": "Virar Post Office (Virar West)",
+    "category": "other",
+    "address": "Raja Chatrapati Shivaji Marg, Vartak Ward, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4572332,
+    "longitude": 72.8110723,
+    "phone": "+91 1800 266 6868",
+    "hours": "Mon–Fri: 8:15 AM–3:15 PM; Sat: 8:15 AM–2:15 PM; Sun: Closed"
+  },
+  {
+    "id": 195,
+    "name": "Talathi Office (Virar East)",
+    "category": "other",
+    "address": "Virar East Railway Station Rd, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4543025,
+    "longitude": 72.812555,
+    "phone": "nan",
+    "hours": "nan"
+  },
+  {
+    "id": 196,
+    "name": "Maha E-Seva Kendra - Shenoy's Services",
+    "category": "other",
+    "address": "Shop No. 06, Icchapurti Sai Building, Gaothan Rd, near Sai Baba Mandir, Gaothan, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4541321,
+    "longitude": 72.8111475,
+    "phone": "+91 84212 35663",
+    "hours": "Mon–Sat: 9:00 AM–8:00 PM; Sun: Closed"
+  },
+  {
+    "id": 197,
+    "name": "Registration Office (Sub-Registrar, Virar East)",
+    "category": "other",
+    "address": "Gokul Plaza, 2nd Floor, Nr. Flyover Bridge, Veer Savarkar Marg, Gawad Wadi, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4583836,
+    "longitude": 72.8122454,
+    "phone": "+91 88880 07777",
+    "hours": "Mon–Fri: 7:30 AM–3:00 PM; Sat–Sun: Closed"
+  },
+  {
+    "id": 198,
+    "name": "Post Office (Virar East)",
+    "category": "other",
+    "address": "Shop No. 3, Meetbhav Wadi, Near Jivdani Plaza, Virar East Railway Station Rd, Pimpal Wadi, Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.4522174,
+    "longitude": 72.8132039,
+    "phone": "+91 1800 266 6868",
+    "hours": "Mon–Fri: 9:00 AM–4:00 PM; Sat: 9:00 AM–3:00 PM; Sun: Closed"
+  },
+  {
+    "id": 199,
+    "name": "Virar West Police Chauki",
+    "category": "other",
+    "address": "Station Rd, Gaothan, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4530688,
+    "longitude": 72.8088005,
+    "phone": "+91 250 252 8222",
+    "hours": "Mon–Sun: 9:00 AM–10:00 PM"
+  },
+  {
+    "id": 200,
+    "name": "Vasai Virar City Municipal Corporation (Head Office)",
+    "category": "other",
+    "address": "Virat Nagar, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4459581,
+    "longitude": 72.8087307,
+    "phone": "nan",
+    "hours": "Mon–Sat: 9:00 AM–5:00 PM; Sun: Closed"
+  },
+  {
+    "id": 201,
+    "name": "VVMC Property Tax Department Office",
+    "category": "other",
+    "address": "Kala Kutir Rd, Dongarpada, Vartak Ward, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4649108,
+    "longitude": 72.8063267,
+    "phone": "+91 1800 233 4353",
+    "hours": "nan"
+  },
+  {
+    "id": 202,
+    "name": "Vasai Virar Shahar Mahanagar Palika - New Headquarters",
+    "category": "other",
+    "address": "Virat Nagar Rd, Virat Nagar, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.445886,
+    "longitude": 72.8086013,
+    "phone": "nan",
+    "hours": "Mon–Fri: 10:00 AM–6:30 PM; Sat–Sun: Closed"
+  },
+  {
+    "id": 203,
+    "name": "Maha E-Seva Kendra (Gokul Township)",
+    "category": "other",
+    "address": "Samrat Millenium Paradise, C/25, Gokul Twp, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4493178,
+    "longitude": 72.7996819,
+    "phone": "+91 99670 42294",
+    "hours": "Mon–Sat: 11:00 AM–1:30 PM & 6:00 PM–8:30 PM; Sun: Closed"
+  },
+  {
+    "id": 204,
+    "name": "Vasai Virar City Mahanagarpalika Naringi UPHC (urban health centre)",
+    "category": "other",
+    "address": "Virar East, Vasai-Virar, Maharashtra 401305",
+    "latitude": 19.470684,
+    "longitude": 72.8149583,
+    "phone": "nan",
+    "hours": "Mon–Wed: 10:00 AM–6:00 PM; Thu–Sat: 10:00 AM–1:00 PM; Sun: Closed"
+  },
+  {
+    "id": 205,
+    "name": "Bolinj Branch Post Office",
+    "category": "other",
+    "address": "1, Ranpada Rd, Gagangiri Nagar, Bolinj, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4494411,
+    "longitude": 72.7936905,
+    "phone": "nan",
+    "hours": "nan"
+  },
+  {
+    "id": 206,
+    "name": "MHADA Society Fire Brigade (Vasai Virar Municipal fire station)",
+    "category": "other",
+    "address": "Near Building No. 12, MHADA Society, Bolinj, Virar West, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.444871,
+    "longitude": 72.8042925,
+    "phone": "nan",
+    "hours": "nan"
+  },
+  {
+    "id": 207,
+    "name": "Mhada fire station",
+    "category": "other",
+    "address": "MHADA Society, Yashavant Nagar, Virar East, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4422345,
+    "longitude": 72.8062359,
+    "phone": "nan",
+    "hours": "nan"
+  },
+  {
+    "id": 208,
+    "name": "Virar Railway Station",
+    "category": "other",
+    "address": "Virar Railway Pedestrian Bridge, Gaothan, Virar East, Vasai-Virar, Maharashtra 401303",
+    "latitude": 19.4547563,
+    "longitude": 72.8119941,
+    "phone": "nan",
+    "hours": "nan"
+  }
 ]
