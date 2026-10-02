@@ -2,6 +2,11 @@ const nearbySection = document.querySelector(".nearby-section");
 
 let userLocation = null;
 
+const defaultLocation = {
+    latitude: 19.45927,
+    longitude: 72.80042
+};
+
 
 fetch("data/services.json")
     .then(response => response.json())
@@ -137,34 +142,32 @@ fetch("data/services.json")
             });
 
 
-            // Sort by distance when location is available
-            if (userLocation) {
+            // Sort by distance from user or New Viva College
+            const referenceLocation = userLocation || defaultLocation;
 
-                filteredServices.sort((a, b) => {
+            filteredServices.sort((a, b) => {
 
-                    const distanceA = calculateDistance(
-                        userLocation.latitude,
-                        userLocation.longitude,
-                        a.latitude,
-                        a.longitude
-                    );
+                const distanceA = calculateDistance(
+                    referenceLocation.latitude,
+                    referenceLocation.longitude,
+                    a.latitude,
+                    a.longitude
+                );
 
+                const distanceB = calculateDistance(
+                    referenceLocation.latitude,
+                    referenceLocation.longitude,
+                    b.latitude,
+                    b.longitude
+                );
 
-                    const distanceB = calculateDistance(
-                        userLocation.latitude,
-                        userLocation.longitude,
-                        b.latitude,
-                        b.longitude
-                    );
+                return distanceA - distanceB;
 
-
-                    return distanceA - distanceB;
-
-                });
-            }
+            });
 
 
             displayServices(filteredServices);
+            showServiceMarkers(filteredServices);
 
         }
 
@@ -180,6 +183,19 @@ fetch("data/services.json")
 
             filterServices();
 
+        });
+
+        searchInput.addEventListener("keydown", (event) => {
+            if (event.key === "Enter") {
+                event.preventDefault();
+                selectedCategory = "all";
+                filterServices();
+
+                nearbySection.scrollIntoView({
+                    behavior: "smooth",
+                    block: "start"
+                });
+            }
         });
 
 
