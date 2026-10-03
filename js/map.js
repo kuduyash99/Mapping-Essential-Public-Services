@@ -40,20 +40,8 @@ function showServiceMarkers(services) {
     });
 }
 
-// Load service data
-fetch("data/services.json")
-    .then(response => response.json())
-    .then(services => {
-
-        services.forEach(service => {
-    serviceMarkers[service.id] = service;
-});
-
-    })
-    .catch(error => {
-        console.error("Error loading service data:", error);
-    });
-
+// Track the currently selected service marker
+let selectedServiceMarker = null;
 
 // Focus on a selected service
 function focusService(serviceId) {
@@ -61,8 +49,39 @@ function focusService(serviceId) {
     const marker = serviceMarkers[serviceId];
 
     if (marker) {
-        map.setView(marker.getLatLng(), 16);
-        marker.openPopup();
+
+        // Reset the previously selected marker
+        if (selectedServiceMarker) {
+            selectedServiceMarker.setIcon(
+                L.icon({
+                    iconUrl: "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png",
+                    shadowUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png",
+                    iconSize: [25, 41],
+                    iconAnchor: [12, 41],
+                    popupAnchor: [1, -34],
+                    shadowSize: [41, 41]
+                })
+            );
+        }
+
+        // Highlight the selected marker
+        marker.setIcon(
+            L.icon({
+                iconUrl: "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png",
+                shadowUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png",
+                iconSize: [25, 41],
+                iconAnchor: [12, 41],
+                popupAnchor: [1, -34],
+                shadowSize: [41, 41]
+            })
+        );
+
+        selectedServiceMarker = marker;
+
+        markerClusterGroup.zoomToShowLayer(marker, () => {
+            marker.openPopup();
+        });
+
     }
 
 }

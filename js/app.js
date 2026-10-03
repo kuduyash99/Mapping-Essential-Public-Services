@@ -170,7 +170,7 @@ fetch("data/services.json")
 
         // Show all services initially
         displayServices(services);
-
+        showServiceMarkers(services);
 
         // Search
         searchInput.addEventListener("input", () => {
@@ -232,20 +232,28 @@ fetch("data/services.json")
 
         locationButton.addEventListener("click", () => {
 
+            locationButton.classList.add("loading");
+            locationButton.disabled = true;
+
             if (!navigator.geolocation) {
 
                 alert(
                     "Location is not supported by your browser."
                 );
 
+                locationButton.classList.remove("loading");
+                locationButton.disabled = false;
+
                 return;
             }
-
 
             navigator.geolocation.getCurrentPosition(
 
                 // SUCCESS
                 (position) => {
+
+                    locationButton.classList.remove("loading");
+                    locationButton.disabled = false;
 
                     userLocation = {
                         latitude: position.coords.latitude,
@@ -288,7 +296,14 @@ fetch("data/services.json")
                     L.marker([
                         userLocation.latitude,
                         userLocation.longitude
-                    ])
+                    ], {
+                        icon: L.divIcon({
+                            className: "user-location-marker",
+                            html: "●",
+                            iconSize: [24, 24],
+                            iconAnchor: [12, 12]
+                        })
+                    })
                         .addTo(map)
                         .bindPopup("You are here")
                         .openPopup();
@@ -309,6 +324,9 @@ fetch("data/services.json")
 
                 // ERROR
                 (error) => {
+
+                    locationButton.classList.remove("loading");
+                    locationButton.disabled = false;
 
                     console.error(
                         "Location error:",

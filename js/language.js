@@ -90,7 +90,21 @@ function applyLanguage() {
         const key = element.dataset.i18n;
 
         if (language[key]) {
-            element.textContent = language[key];
+
+            if (element.id === "locationButton") {
+
+                const buttonText =
+                    element.querySelector(".button-text");
+
+                if (buttonText) {
+                    buttonText.textContent = language[key];
+                }
+
+            } else {
+
+                element.textContent = language[key];
+
+            }
         }
     });
 
